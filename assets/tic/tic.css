@@ -31,6 +31,7 @@ h1 {
     align-items: center;
     font-size: 2em;
     cursor: pointer;
+    border-radious: 15px;
 }
 
 .status {
@@ -48,6 +49,10 @@ h1 {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+}
+
+p{
+    color: white;
 }
 
 .reset-button:hover {
