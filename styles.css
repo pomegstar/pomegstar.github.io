@@ -10,7 +10,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background-image: url('https://media.istockphoto.com/id/1733671277/photo/curved-data-lines-with-shallow-depth-of-field-blue-technology-computer-network-abstract.jpg?s=1024x1024&w=is&k=20&c=3tc3d80oY8id8HcrxNJYCBT5eZ1UwpTfS1UHvOuhThQ='); /* Replace with your image path */
+    background-image: url('bgp5.jpg'); /* Replace with your image path */
     background-size: cover; /* This makes sure the image covers the entire element */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
