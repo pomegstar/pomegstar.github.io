@@ -41,6 +41,32 @@ body {
     color: white;
 }
 
+#pphlink {
+  text-align: center;
+}
+
+.btnh {
+  padding: 15px 30px;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btnh:hover {
+  transform: scale(1.1);
+  box-shadow: 0 20px 30px rgba(212, 175, 55, 0.5);
+}
+
 .hero h1 {
     font-size: 3.2rem;
 }
@@ -473,6 +499,12 @@ footer p {
     .skills-list {
       justify-content: center;
     }
+
+    .btnh {
+      padding: 10px 20px;
+      font-size: 1.4rem;
+    }
+
     /* project */
     .project-card {
         margin-bottom: 20px;
