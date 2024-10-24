@@ -83,7 +83,7 @@
                             <a class="nav-link" href="#contact">Contact Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://pph.me/nazmurrumman">Hire Me</a>
+                            <a class="nav-link" href="#pph-hireme">Hire Me</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Courses</a>
@@ -320,7 +320,7 @@
         </div>
 
         <div id="pphlink">
-          <a href="https://pph.me/nazmurrumman" >
+          <a href="#pph-hireme" >
             <button id="btnh" class="btnh">
               Hire Me
             </button>
@@ -446,6 +446,23 @@
 
     <!-- Footer -->
     <footer class="py-3 text-center">
+            <!--
+        PeoplePerHour Profile Widget
+        The div#pph-hire me is the element
+        where the iframe will be inserted.
+        You may move this element wherever
+        you need to display the widget
+        -->
+        <div id="pph-hireme"></div>
+        <script type="text/javascript">
+        (function(d, s) {
+            var useSSL = 'https:' == document.location.protocol;
+            var js, where = d.getElementsByTagName(s)[0],
+            js = d.createElement(s);
+            js.src = (useSSL ? 'https:' : 'http:') +  '//www.peopleperhour.com/hire/372624380/11723490.js?width=245&height=320&orientation=vertical&theme=dark&hourlies=1028106%2C1028641&rnd='+parseInt(Math.random()*10000, 10);
+            try { where.parentNode.insertBefore(js, where); } catch (e) { if (typeof console !== 'undefined' && console.log && e.stack) { console.log(e.stack); } }
+        }(document, 'script'));
+        </script>
         <p>© MD. Nazmul Islam 2024</p>
     </footer>
 
